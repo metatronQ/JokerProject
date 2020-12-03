@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/jetton_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="37dp"
+        android:src="@drawable/jetton_1" />
+
+    <ImageView
+        android:id="@+id/jetton_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-16dp"
+        android:layout_marginBottom="22dp"
+        android:layout_toRightOf="@+id/jetton_1"
+        android:src="@drawable/jetton_5" />
+
+    <ImageView
+        android:id="@+id/jetton_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-17dp"
+        android:layout_marginBottom="12dp"
+        android:layout_toRightOf="@+id/jetton_5"
+        android:src="@drawable/jetton_10" />
+
+    <ImageView
+        android:id="@+id/jetton_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-17dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@+id/jetton_10"
+        android:src="@drawable/jetton_50" />
+
+    <ImageView
+        android:id="@+id/jetton_100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-16dp"
+        android:layout_toRightOf="@+id/jetton_50"
+        android:src="@drawable/jetton_100" />
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/cancel"/>
+
+    <ImageView
+        android:id="@+id/deal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/cancel"
+        android:layout_marginRight="-20dp"
+        android:layout_marginBottom="-12dp"
+        android:src="@drawable/deal"/>
+
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/deal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-32dp"
+        android:layout_marginBottom="-12dp"
+        android:src="@drawable/check" />
+</merge>
